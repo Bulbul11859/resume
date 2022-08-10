@@ -1,0 +1,56 @@
+.education{
+    position: relative;
+   
+}
+.education_child{
+    margin-top: 50px;
+    
+    
+}
+
+.education_flex{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.education_left{
+    position: relative;
+   
+}
+.education_round{
+    position: absolute;
+    display: block;
+    background: #FF5823;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    top: 6px;
+    left: -25px;
+}
+.education_text{
+    color: #FF5823;
+    font-weight: 600;
+   
+}
+.education_subject{
+    font-weight: 500;
+    line-height: 3;
+    font-style: italic;
+}
+.education_right{
+    
+    background: #FF5823;
+    padding: 3px 10px;
+    border-radius: 50px;
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 13px;
+}
+.education_right:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 1s;
+}

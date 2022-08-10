@@ -52,7 +52,7 @@ const Resume = () => {
         <h1>Resume</h1>
         <p className='resume_choose_me'>My Formal Bio Details</p>
         <p className='public_underline'> <span className='public_underline_span'><span></span></span></p>
-        <div className='resume_flex container'>
+        <div className='resume_flex container' style={{marginTop:"35px"}}>
          <div  className='resume_flex_left'>
             <div className='resume_left_icon'>
                
