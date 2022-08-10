@@ -1,0 +1,53 @@
+@media only screen and (max-width:1010px){
+
+    .about_image {
+       
+        width: 100%;
+    }
+    .about_right_Text{
+        width: 100%;
+        height: 500px;
+       
+    }
+    .about_right_btn{
+        width: 100%;
+    }
+}
+
+@media  only screen and (max-width:810px) {
+    .about_flex{
+          
+        flex-direction: column;
+    }
+    .about_left{
+        width: 100%;
+       
+    }
+    .about_image{
+       
+        width: 100%;  
+      
+    }
+    .about_right{
+        width: 100%;
+        margin-top: 30px;
+       
+    }
+    .about_right_Text{
+        width: 100%;
+        
+    }
+}
+@media  only screen and (max-width:410px) {
+       .about_right{
+        height: 570px;
+       }
+       .about_right_Text{
+        height: 570px;
+       }
+       .about_btn{
+       font-size: 10px !important;
+        width: 120px !important;
+        padding: 10px 0 !important;
+       }
+}

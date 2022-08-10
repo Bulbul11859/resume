@@ -1,0 +1,83 @@
+.resume h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(17, 17, 17);
+   
+}
+
+
+.resume .resume_choose_me{
+    text-align: center;
+    color: rgb(17, 17, 17);
+    font-style: italic;
+    font-weight: 300;
+    
+   
+}
+.resume_flex{
+  display: flex;
+  flex-wrap: nowrap;
+  
+ 
+}
+.resume_flex_left{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+    box-shadow: rgba(0, 0, 0, 0.15) 5.95px 0.95px 10.6px;
+ 
+    
+}
+.resume_left_icon{
+     width: 40px;
+   
+    background: #000;
+    text-align: center;
+    align-items: center;
+}
+
+.resume_left_icon p{
+   color: white;
+  
+}
+.resume_p{
+    margin: 40px 0px;
+    padding: 10px 0px;
+    border-radius: 0px 40px 40px 0px;
+}
+.resume_p_active{
+    background: #000;
+    margin: 40px 0px;
+    padding: 10px 0px;
+    border-radius: 0px 40px 40px 0px;
+    color: white;
+}
+
+.resume_p:hover{
+    background: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    
+}
+.resume_right_icon{
+    width: 70%;
+  
+}
+
+
+.resume_right_icon p span{
+    margin-left: 10px;
+}
+.resume_flex_right{
+    width: 120%;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+ 
+}
+.resume_right{
+    padding:0px 20px;
+}
+
