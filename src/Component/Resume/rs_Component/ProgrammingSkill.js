@@ -19,7 +19,7 @@ const ProgrammingSkill = () => {
     { type: 'Node.Js', level: 80 },
     { type: 'Express.Js', level: 80 },
     { type: 'MongoDB', level: 75 },
-    { type: 'FireBase', level: 75 },
+    { type: 'FireBase', level: 70 },
   ];
 
   const colors = {
