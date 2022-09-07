@@ -12,7 +12,7 @@ Menu{
   position: fixed;
   width: 100%;
   margin-bottom: 100px;
-  background: rgba(190, 101, 54, 0.808);
+  background: #3333338a;
   transition: 1s;
   z-index: 2000;
 }
@@ -65,10 +65,5 @@ Menu{
 
   }  
 
-  @media only screen and (max-width: 1000px) {
-    .menu_list li {
-      padding: 0px 10px;
-      
-  }
-  }
+ 
  

@@ -1,8 +1,13 @@
 import React, { useEffect, useState } from 'react'
 
 import './resume.css'
+import './mobileresume.css'
+
 import Education from './rs_Component/Education';
 import Workhistory from './rs_Component/Workhistory';
+import ProgrammingSkill from './rs_Component/ProgrammingSkill';
+
+
 const Resume = () => {
   const [slidereducation, setSliderEducation] = useState(true);
   const [sliderwork, setSliderWork] = useState(false);
@@ -46,8 +51,11 @@ const Resume = () => {
     setSliderInterest(true)
   }
 
+  
+
   return (
-    <div className='resume' id='About' style={{marginTop:"120px"}} >
+    
+    <div className='resume' id='Resume' style={{marginTop:"120px"}} >
        
         <h1>Resume</h1>
         <p className='resume_choose_me'>My Formal Bio Details</p>
@@ -56,19 +64,21 @@ const Resume = () => {
          <div  className='resume_flex_left'>
             <div className='resume_left_icon'>
                
-                <p className='resume_p'><i className="fa-solid fa-user-graduate"></i></p>
-                <p className='resume_p'><i class="fa-solid fa-clock-rotate-left"></i></p>
-                <p className='resume_p'><i class="fa-solid fa-computer"></i></p>
-                <p className='resume_p'><i class="fa-solid fa-up-right-from-square"></i></p>
-                <p className='resume_p'><i class="fa-solid fa-child-reaching"></i></p>
+                <p className={`${slidereducation ? "resume_p_active" : "resume_p"} `} onClick={slideEducation} ><i className="fa-solid fa-user-graduate"></i></p>
+                <p className={`${sliderwork ? "resume_p_active" : "resume_p" } `} onClick={slideWorkhistory}><i class="fa-solid fa-clock-rotate-left"></i></p>
+                <p className={`${sliderSkill ? "resume_p_active" : "resume_p" } `} onClick={slideProgramSkill}><i class="fa-solid fa-computer"></i></p>
+                <p className={`${sliderProject ? "resume_p_active" : "resume_p" } `} onClick={slideProject}><i class="fa-solid fa-up-right-from-square"></i></p>
+                <p className={`${sliderinterest ? "resume_p_active" : "resume_p" } `}  onClick={slideInterest}><i class="fa-solid fa-child-reaching"></i></p>
               
             </div>
             <div className='resume_right_icon'>
-            <p className={`${slidereducation ? "resume_p_active" : "resume_p" } `} onClick={slideEducation}><span>Education</span></p>
+             
+            <p className={`${slidereducation ? "resume_p_active" : "resume_p"} `} onClick={slideEducation}><span>Education</span></p>
             <p className={`${sliderwork ? "resume_p_active" : "resume_p" } `} onClick={slideWorkhistory}><span>Work History</span></p>
             <p className={`${sliderSkill ? "resume_p_active" : "resume_p" } `} onClick={slideProgramSkill}><span>Programming Skills</span></p>
             <p className={`${sliderProject ? "resume_p_active" : "resume_p" } `} onClick={slideProject}><span>Project</span></p>
             <p className={`${sliderinterest ? "resume_p_active" : "resume_p" } `}  onClick={slideInterest}><span>Interest</span></p>
+           
             </div>
            
         </div>
@@ -88,11 +98,11 @@ const Resume = () => {
               }
               {sliderSkill&&
                   <div>
-                   <Education/>
+                   <ProgrammingSkill/>
                     </div>
               }
               {sliderProject&&
-                   <div>
+                   <div >
                   <Workhistory/>
                     </div>  
               }

@@ -35,6 +35,7 @@ const MobileMenubar = () => {
         >
           <li><a href="#home" onClick={()=>setOpen(false)}>Home</a></li>
           <li><a href="#About" onClick={()=>setOpen(false)}>About</a></li>
+          <li><a href="#Resume" onClick={()=>setOpen(false)}>Resume</a></li>
           <li> <a href="#work">Work</a></li>
           <li><a href="#service">Services</a></li>
         </ul>

@@ -1,0 +1,56 @@
+@media only screen and (max-width:810px) {
+    .resume_flex {
+        position: relative;
+    }
+    .resume_flex_left{
+        width: auto;
+    }
+   
+    .resume_right_icon{
+        display: flex;
+        width: 100%;
+      position: absolute; 
+      left: 0%;
+      background: #000;
+      color: #ffff;
+      justify-content: center;
+    align-items: center;
+    height: 30px;
+        
+    }
+    .resume_right_icon .resume_p{
+        margin: 0px 0px;
+    padding: 0px 0px;
+    border-radius: 0px;
+    font-size: 13px;
+    }
+    .resume_left_icon .resume_p_active{
+        background: red;
+    }
+    .resume_right_icon .resume_p_active {
+        background: transparent !important;
+        margin: 0px 0px;
+        padding: 0px 4px  0px 5px;
+        font-size: 13px;
+        color: rgb(34, 34, 34);
+        color: #ffff;
+        background: red !important;
+        
+    }
+
+
+    
+}
+
+@media only screen and (max-width:560px){
+    .resume_right_icon .resume_p{
+        margin: 0px 0px;
+    padding: 0px 0px;
+    border-radius: 0px;
+    font-size: 7px;
+    }
+    .resume_right_icon .resume_p_active {
+        padding: 7px;
+    font-size: 7px;
+    }
+}

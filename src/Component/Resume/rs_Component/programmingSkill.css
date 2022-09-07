@@ -1,0 +1,11 @@
+.ProgrammingSkill{
+
+}
+.ProgrammingSkill_child{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.skillbar-percent {
+    color: #000000;
+}

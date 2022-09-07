@@ -3,9 +3,14 @@
    display: none;
  
  }
+ @media only screen and (max-width: 1120px) {
+  .menu_list li {
+    padding: 0px 5px;
+    
+}
+}
 
-
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 810px) {
     /* Navbar Media Queries */
     .navbar {
       display: none;
@@ -18,4 +23,6 @@
     .menu_fixed_color{
          display: none;
     }
+    
   }
+ 
