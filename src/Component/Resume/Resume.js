@@ -6,6 +6,7 @@ import './mobileresume.css'
 import Education from './rs_Component/Education';
 import Workhistory from './rs_Component/Workhistory';
 import ProgrammingSkill from './rs_Component/ProgrammingSkill';
+import Project from './rs_Component/Project';
 
 
 const Resume = () => {
@@ -103,7 +104,7 @@ const Resume = () => {
               }
               {sliderProject&&
                    <div >
-                  <Workhistory/>
+                  <Project/>
                     </div>  
               }
 

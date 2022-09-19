@@ -22,18 +22,12 @@ const ProgrammingSkill = () => {
     { type: 'FireBase', level: 70 },
   ];
 
-  const colors = {
-    bar: "#3498db",
-    title: {
-      text: "#fff",
-      background: "#2980b9"
-    }
-  };
+
 
   return (
     <div className='ProgrammingSkill'>
      <div className='ProgrammingSkill_child'>
-     <SkillBar skills={skills} height={17} colors={colors}/>
+     <SkillBar skills={skills} height={17}  />
      </div>
     </div>
   )
