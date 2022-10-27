@@ -16,13 +16,14 @@
     border-radius: 50%;
     width: 12px;
     height: 12px;
-    margin-top: 5px;
-    margin-right: 5px;
+   
+    margin-right: 10px;
    
 }
 .workhistory_flex_left{
     display: flex;
     text-align: center;
+    align-items: center;
 }
 .workhistory_flex_left p{
    color: #FF5823;
@@ -37,8 +38,31 @@
     font-size: 13px;
 }
 .workhistory_text{
-    margin-left: 25px;
+    margin-left: 10px;
 }
 .workhistory_text h6{
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.workhistory_text p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
     font-weight: 500;
+    line-height: 2;
+    color: rgb(26, 26, 26);
+}
+
+
+@media only screen and (max-width:510px){
+    .workhistory_flex {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 0 5px;
+    }
+    .workhistory_flex_right{
+        display: flex;
+        align-items: center;
+    }
 }

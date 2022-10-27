@@ -5,17 +5,17 @@ const Project = () => {
   return (
     <div>
         <h1>ufhuef</h1>
-        <a href='https://crisboarna.github.io/react-skillbars/docs/props/animation' target="_blank">
+        <a href='' target="_blank">
         <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <img src={project1}  style={{width:"200px",height:"200px"}}/>
+      <img src={project1}  style={{width:"300px",height:"200px"}}/>
       <p>E-Commerce Project <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
     </div>
     <div class="flip-card-back">
-      <h1>John Doe</h1> 
-      <p>Architect & Engineer</p> 
-      <p>We love that guy</p>
+      <h1>Trali E-Commerce</h1> 
+      <h6>It is an ecommerce project.ytyt tytytry</h6> 
+      
     </div>
   </div>
 </div>
