@@ -11,13 +11,13 @@ const Profile = () => {
         <div className='profile-details'>
             <div className='clz'>
                 <div className='clz-icon'>
-                    <a href='https://www.facebook.com/swiftness.BB/'>
+                    <a href='https://www.facebook.com/swiftness.BB/' target="_blank">
                       <i className="fa-brands fa-facebook"></i>
                     </a>
-                    <a href='#'>
+                    <a href='https://github.com/Bulbul11859' target="_blank">
                     <i className="fa-brands fa-github"></i>
                     </a>
-                    <a href='#'>
+                    <a href='https://www.linkedin.com/in/bulbul-rahman-38420b237' target="_blank">
                     <i className="fa-brands fa-linkedin"></i>
                     </a>
                     <a href='#'>
