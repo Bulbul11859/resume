@@ -24,7 +24,8 @@ const Menubar = () => {
         <div className='container'>
          <nav className="navbar">
             <div className='nav_icon'>
-            <Wave text="My Portfolio" effect="stretch" effectChange={2.2} style={{color:"white"}}/>
+              <a href="#home">
+            <Wave text="My Portfolio" effect="stretch" effectChange={2.2} style={{color:"white"}} /></a>
       </div>
       <div className='navbar_right'>
         <ul className="menu_list">
