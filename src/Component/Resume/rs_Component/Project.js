@@ -4,7 +4,7 @@ import project1 from '../../../assets/About/project1.PNG'
 const Project = () => {
   return (
     <div>
-        <h1>ufhuef</h1>
+        <h1>Project List</h1>
         <a href='' target="_blank">
         <div class="flip-card">
   <div class="flip-card-inner">

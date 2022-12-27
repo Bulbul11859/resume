@@ -11,6 +11,7 @@ function App() {
        <Home/>
        <About/>
        <Resume/>
+
        <div style={{marginTop:"100px"}} className='Footer'>
        <h1 className='Footer_head'>Contact</h1>
         <p className='resume_choose_me'>Contact with me</p>
@@ -72,7 +73,7 @@ function App() {
       </div>
     </div>
     <div class="credits">
-      inspired by
+      I Love 
       <a class="credits-link" href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">
         <svg class="dribbble" viewBox="0 0 200 200">
           <g stroke="#ffffff" fill="none">
@@ -82,7 +83,7 @@ function App() {
             <path d="M41.3611549,163.928627 C62.9207607,117.659048 137.020642,86.7137169 189.041451,107.858103" stroke-width="20"></path>
           </g>
         </svg>
-        Bulbul
+        Coding!
       </a>
     </div>
   </div>
